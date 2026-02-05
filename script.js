@@ -1,6 +1,6 @@
 function getAttendance() {
   var regno = document.getElementById("regno").value;
-  var url = "https://script.google.com/u/0/home/projects/1pz7XcZrFGWi-51tXVd4vQNW1INtTv5u2dkGloolKbFGa_e1V7bnIFCJL/edit?regno=" + regno;
+  var url = "https://script.google.com/macros/s/AKfycbwb8JsUppYeN7czBRCre9gwvUrAvrMZ9DX28A_pjMKpLIKlifQZPruKX0W7JAplkmr4/exec?regno=" + regno;
 
   fetch(url)
     .then(response => response.json())
@@ -24,3 +24,4 @@ function getAttendance() {
       });
     });
 }
+
